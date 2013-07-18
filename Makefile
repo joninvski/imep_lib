@@ -11,10 +11,10 @@ archive: libimep.a
 all: $(SOURCES) $(EXECUTABLE)
 
 .cc.o:
-	$(CC) -c $(CFLAGS) $< -o $@
+	$(CC) -fpic -c $(CFLAGS) $<
 
 libimep.a: $(OBJECTS)
-	ar -rcs libimep.a imep.o
+	$(CC) -shared -o libimep.so *.o
 
 clean:
 	rm -f *.o $(EXECUTABLE) *.a
