@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/joninvski/imep_lib.png?branch=master)](https://travis-ci.org/joninvski/imep_lib)
 
 Internet MANET Encapsulation Protocol (IMEP) c++ lib
 ====================================================
