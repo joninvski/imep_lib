@@ -1,5 +1,6 @@
 #include <map>
 #include <list>
+#include <cstddef>
 
 #define DEF_BEACON_SKIPS  3
 
