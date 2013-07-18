@@ -20,14 +20,14 @@ The user can:
 
 API:
 
-    IMEP object
-    |
-    Constructur()
-    PassTime()
-    ReceivedHello()
-    GetAvailableConnections()
-    ConsiderLinkUp()
-    ConsiderLinkDown()
+    IMEP object:
+
+     * Constructur()
+     * PassTime()
+     * ReceivedHello()
+     * GetAvailableConnections()
+     * ConsiderLinkUp()
+     * ConsiderLinkDown()
 
 The user has to pass a callback to IMEP which allows it to send messages
 
