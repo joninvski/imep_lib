@@ -19,4 +19,6 @@ libimep.a: $(OBJECTS)
 clean:
 	rm -f *.o $(EXECUTABLE) *.a
 
+test: libimep.a
+
 rebuild: clean all
