@@ -10,8 +10,8 @@ archive: libimep.a
 
 all: $(SOURCES) $(EXECUTABLE)
 
-.cpp.o:
-	$(CC) $(CFLAGS) $< -o $@
+.cc.o:
+	$(CC) -c $(CFLAGS) $< -o $@
 
 libimep.a: $(OBJECTS)
 	ar -rcs libimep.a imep.o
