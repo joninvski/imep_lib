@@ -14,7 +14,7 @@ all: $(SOURCES) $(EXECUTABLE)
 	$(CC) -fpic -c $(CFLAGS) $<
 
 libimep.a: $(OBJECTS)
-	$(CC) -shared -o libimep.so *.o
+	ar -rcs libimep.a imep.o
 
 clean:
 	rm -rf *.o $(EXECUTABLE) *.a autom4te.cache/ config.*
