@@ -17,7 +17,7 @@ libimep.a: $(OBJECTS)
 	$(CC) -shared -o libimep.so *.o
 
 clean:
-	rm -f *.o $(EXECUTABLE) *.a
+	rm -rf *.o $(EXECUTABLE) *.a autom4te.cache/ config.*
 
 test: libimep.a
 
